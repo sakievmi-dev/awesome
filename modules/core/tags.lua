@@ -1,0 +1,22 @@
+screen.connect_signal("request::desktop_decoration", function(s)
+	awful.tag(
+		{
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+		},
+		s,
+		{
+			awful.layout.suit.tile,
+			awful.layout.suit.max,
+			awful.layout.suit.max,
+			awful.layout.suit.floating,
+			awful.layout.suit.floating,
+			awful.layout.suit.floating,
+			awful.layout.suit.floating,
+		}
+	)
+end)

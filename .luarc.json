@@ -1,0 +1,15 @@
+{
+  "runtime.version": "Lua 5.4",
+  "runtime.path": ["?.lua", "?/init.lua"],
+  "workspace.library": [
+    "/usr/share/awesome/lib",
+    "/usr/share/lua/5.5/lgi"
+  ],
+  "workspace.checkThirdParty": false,
+  "diagnostics.globals": [
+    "awesome", "client", "screen", "root", "tag",
+    "mouse", "drawin", "button", "key", "dbus", "RC",
+    "mousegrabber"
+  ]
+}
+
